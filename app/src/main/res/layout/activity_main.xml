@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome to home page"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#F60808"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/selectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set date"
+        android:textColor="#2037C6"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/showDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#990841"
+        android:textSize="20dp"
+        android:text="open date picker"
+        />
+
+
+
+</LinearLayout>
